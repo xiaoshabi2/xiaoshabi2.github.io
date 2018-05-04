@@ -8,26 +8,26 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 02 May 2018 15:46:31 GMT</pubDate>
+    <pubDate>Fri, 04 May 2018 13:09:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>tags</title>
-      <link>http://yoursite.com/2018/05/02/tags/</link>
-      <guid>http://yoursite.com/2018/05/02/tags/</guid>
-      <pubDate>Wed, 02 May 2018 11:26:21 GMT</pubDate>
+      <title>Hexo+Next+GithubPage 搭建博客</title>
+      <link>http://yoursite.com/2018/05/04/Hexo-Next-GithubPage-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <guid>http://yoursite.com/2018/05/04/Hexo-Next-GithubPage-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <pubDate>Fri, 04 May 2018 13:07:23 GMT</pubDate>
       <description>
       
         
         
-          &lt;h2 id=&quot;hello-tages&quot;&gt;&lt;a href=&quot;#hello-tages&quot; class=&quot;headerlink&quot; title=&quot;hello tages&quot;&gt;&lt;/a&gt;hello tages&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-page-tages&quot;&gt;&lt;a h
+          &lt;h1 id=&quot;Hexo-Next-GithubPage-搭建博客&quot;&gt;&lt;a href=&quot;#Hexo-Next-GithubPage-搭建博客&quot; class=&quot;headerlink&quot; title=&quot;Hexo+Next+GithubPage 搭建博客&quot;&gt;&lt;/a&gt;Hexo+Next+G
         
       
       </description>
       
-      <content:encoded><![CDATA[<h2 id="hello-tages"><a href="#hello-tages" class="headerlink" title="hello tages"></a>hello tages</h2><h3 id="Create-a-new-page-tages"><a href="#Create-a-new-page-tages" class="headerlink" title="Create a new page tages"></a>Create a new page tages</h3>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="Hexo-Next-GithubPage-搭建博客"><a href="#Hexo-Next-GithubPage-搭建博客" class="headerlink" title="Hexo+Next+GithubPage 搭建博客"></a>Hexo+Next+GithubPage 搭建博客</h1><h3 id="搭建方法"><a href="#搭建方法" class="headerlink" title="搭建方法"></a><strong>搭建方法</strong></h3><p>网站上有很多建站的方法：<br>&emsp;&emsp;1.<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo + GitHub Pages</a><br>&emsp;&emsp;2.<a href="http://jekyll.com.cn/" target="_blank" rel="noopener">Jekyll + GitHub Pages</a><br>&emsp;&emsp;3.<a href="https://cn.wordpress.org/" target="_blank" rel="noopener">WordPress + 服务器 + 域名</a><br>&emsp;&emsp;4.<a href="http://www.dedecms.com/" target="_blank" rel="noopener">DeDeCMS + 服务器 + 域名</a></p><h3 id="Hexo-GitHub-Pages-建站的优点"><a href="#Hexo-GitHub-Pages-建站的优点" class="headerlink" title="Hexo + GitHub Pages 建站的优点"></a><strong>Hexo + GitHub Pages 建站的优点</strong></h3><p>&emsp;&emsp;1.GitHub Pages 无需购置服务器，免服务器费的同时还能做负载均衡，github pages有300M免费空间<br>&emsp;&emsp;2.通过 Hexo 你可以轻松地使用 Markdown 编写文章，简单方便。</p><h3 id="博客的搭建"><a href="#博客的搭建" class="headerlink" title="博客的搭建"></a><strong>博客的搭建</strong></h3><ul><li><a href="http://www.lovebxm.com/2017/05/30/buildBlog/" target="_blank" rel="noopener">基础教程</a>(大概需要20分钟，完成博客的基础模块，出自白小明大佬)</li><li><a href="https://www.jianshu.com/p/5973c05d7100" target="_blank" rel="noopener">进阶教程</a>(大概需要几个小时，扩展博客的功能，出自代码咖啡大佬)</li><li><a href="https://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="noopener">自由搭配教程</a>(出自Juli距离大佬)<br><a href="https://www.jianshu.com/p/5888bd91d070?open_source=weibo_search" target="_blank" rel="noopener">https://www.jianshu.com/p/5888bd91d070?open_source=weibo_search</a></li></ul><h3 id="备注"><a href="#备注" class="headerlink" title="备注"></a><strong>备注</strong></h3><p>1.进阶教程中的评论系统出问题推荐使用<a href="https://www.jianshu.com/p/5888bd91d070?open_source=weibo_search" target="_blank" rel="noopener">畅言</a><br>2.进阶教程中的搜索功能添加出现问题的话，可以采用另一种方法<a href="https://zty.js.org/post/2016/07/08/hexo-localsearch.html" target="_blank" rel="noopener">教程</a>(出自Zetao Yang大佬)</p>]]></content:encoded>
       
-      <comments>http://yoursite.com/2018/05/02/tags/#disqus_thread</comments>
+      <comments>http://yoursite.com/2018/05/04/Hexo-Next-GithubPage-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#disqus_thread</comments>
     </item>
     
     <item>
