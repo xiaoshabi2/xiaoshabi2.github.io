@@ -8,8 +8,27 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 04 May 2018 13:22:38 GMT</pubDate>
+    <pubDate>Sat, 05 May 2018 07:38:03 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>linux 安装java+msql+tomcat</title>
+      <link>http://yoursite.com/2018/05/05/linux-%E5%AE%89%E8%A3%85java-msql-tomcat/</link>
+      <guid>http://yoursite.com/2018/05/05/linux-%E5%AE%89%E8%A3%85java-msql-tomcat/</guid>
+      <pubDate>Sat, 05 May 2018 07:34:04 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h1 id=&quot;linux-安装java-msql-tomcat&quot;&gt;&lt;a href=&quot;#linux-安装java-msql-tomcat&quot; class=&quot;headerlink&quot; title=&quot;linux 安装java+msql+tomcat&quot;&gt;&lt;/a&gt;linux 安装java+m
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<h1 id="linux-安装java-msql-tomcat"><a href="#linux-安装java-msql-tomcat" class="headerlink" title="linux 安装java+msql+tomcat"></a>linux 安装java+msql+tomcat</h1><h3 id="环境的搭建"><a href="#环境的搭建" class="headerlink" title="环境的搭建"></a>环境的搭建</h3><p>&emsp;&emsp;1.阿里云购买服务器<a href="https://www.aliyun.com/?utm_medium=text&amp;utm_source=bdbrand&amp;utm_campaign=bdbrand&amp;utm_content=se_32492m" target="_blank" rel="noopener">阿里云</a>（学生经过实名认证之后能购买9.9包月的ESC服务器）<br>&emsp;&emsp;2.在安全组配置添加端口号(vsftp:21,ssh:22,tomcat:80,mysql:3306,1024-65535)(这一步很重要没在安全组添加的话下面所以的安装都会连接不上。博主也踩了好几次坑)<br>&emsp;&emsp;3.安装vsftp服务<a href="http://blog.java1234.com/blog/articles/307.html" target="_blank" rel="noopener">教程</a><br>&emsp;&emsp;4.安装jre<a href="http://blog.java1234.com/blog/articles/307.html" target="_blank" rel="noopener">教程</a><br>&emsp;&emsp;5.安装mysql<a href="http://blog.java1234.com/blog/articles/308.html" target="_blank" rel="noopener">教程</a><br>&emsp;&emsp;6.安装Tomcat<a href="http://blog.java1234.com/blog/articles/309.html" target="_blank" rel="noopener">教程</a></p><h3 id="备注："><a href="#备注：" class="headerlink" title="备注："></a>备注：</h3><p>  &emsp;&emsp;1.博主使用的是阿里云ESC Centors7服务器，亲测有效。<br>  &emsp;&emsp;2.在linux添加端口时如果出现<code>firewall is not running</code> 因为没有开启防火墙的原因，输入命令<code>systemctl start firewalld</code>，没有任何提示就说明防火墙开启成功。<br>  &emsp;&emsp;3.环境搭建成功后记得给作者点鼓励。</p>]]></content:encoded>
+      
+      <comments>http://yoursite.com/2018/05/05/linux-%E5%AE%89%E8%A3%85java-msql-tomcat/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Hexo+Next+GithubPage 搭建博客</title>
