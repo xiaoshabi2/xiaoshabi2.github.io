@@ -8,11 +8,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 17 May 2018 09:19:37 GMT</pubDate>
+    <pubDate>Thu, 17 May 2018 09:25:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>ActiveMQ(点对点)</title>
+      <title>ActiveMQ(一对多)</title>
       <link>http://yoursite.com/2018/05/17/ActiveMQ(%E4%B8%80%E5%AF%B9%E5%A4%9A)%20/</link>
       <guid>http://yoursite.com/2018/05/17/ActiveMQ(%E4%B8%80%E5%AF%B9%E5%A4%9A)%20/</guid>
       <pubDate>Thu, 17 May 2018 09:09:44 GMT</pubDate>
