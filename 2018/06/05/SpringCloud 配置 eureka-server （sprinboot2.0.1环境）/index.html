@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="cy">
 <meta property="og:description" content="SpringCloud 配置 eureka-server （sprinboot2.0.1环境）1.Maven导入包&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;project xmlns=&amp;quot;http://maven.apache.org/POM/4.0.0&amp;quot; xmlns:xsi=&amp;quo">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-07-25T12:07:59.060Z">
+<meta property="og:updated_time" content="2018-07-25T13:18:24.760Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SpringCloud 配置 eureka-server （sprinboot2.0.1环境）">
 <meta name="twitter:description" content="SpringCloud 配置 eureka-server （sprinboot2.0.1环境）1.Maven导入包&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;project xmlns=&amp;quot;http://maven.apache.org/POM/4.0.0&amp;quot; xmlns:xsi=&amp;quo">
@@ -410,7 +410,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  537
+                  548
                 </span>
               
 
@@ -554,16 +554,17 @@ public class DemoApplication {
     }
 }
 </code></pre><h3 id="3-在application-properties"><a href="#3-在application-properties" class="headerlink" title="3.在application.properties"></a>3.在application.properties</h3><p>添加以下代码</p>
-<pre><code>server.port = 1111
-eureka.instance.hostname = localhost
+<pre><code>server.port=8260
+eureka.instance.hostname=localhost
 eureka.client.register-with-eureka=false
-eureka.client.fetch-registry = false
-eureka.client.serviceUrl.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/
+eureka.client.fetch-registry=false
+eureka.client.service-url.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka
 </code></pre><ol>
-<li>server.port = 1111 代表访问端口 </li>
+<li>server.port=8260 代表访问端口 </li>
 <li>eureka.client.register-with-eureka=false 代表不注册自己</li>
-<li>eureka.client.fetch-registry = false 注册中心不去检索服务</li>
-<li>eureka.client.serviceUrl.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka/ 访问地址</li>
+<li>eureka.client.fetch-registry=false 注册中心不去检索服务</li>
+<li>eureka.client.service-url.defaultZone=http://${eureka.instance.hostname}:${server.port}/eureka 访问地址</li>
+<li>eureka.instance.hostname=localhost 代表本地</li>
 </ol>
 <h3 id="3-在启动springboot在浏览器中输入"><a href="#3-在启动springboot在浏览器中输入" class="headerlink" title="3.在启动springboot在浏览器中输入"></a>3.在启动springboot在浏览器中输入</h3><pre><code>http://localhost:1111/ 就可以访问
 </code></pre><h3 id="4-备注"><a href="#4-备注" class="headerlink" title="4.备注"></a>4.备注</h3><p>博主踩了大半天的坑最终通过这个方法实现了希望能帮到一些初学者</p>
